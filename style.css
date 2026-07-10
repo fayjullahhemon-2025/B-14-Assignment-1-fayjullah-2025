@@ -5,6 +5,9 @@
     box-sizing: border-box;
     font-family:"Arimo", sans-serif;
 }
+img{
+    max-width: 100%;
+}
 /* 2. common styles  */
 
 .btn{
@@ -13,6 +16,7 @@
     padding: 10px 25px;
     border:none;
     border-radius: 5px;
+    cursor:pointer;
 }
 /* 3. nav style  */
 header{
@@ -32,3 +36,51 @@ nav ul li a{
     text-decoration: none;
     color:#575757;
 }
+
+/* 4. hero section style  */
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background:linear-gradient(
+      rgba(0, 0, 0, 0.4) 0%, 
+      rgba(0, 0, 0, 0.9) 100%
+    ), 
+    url('./assets/banner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 10px;
+    gap:100px;
+}
+.hero-text{
+    color:rgba(255, 255, 255,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    padding: 10px 20px;
+    margin-bottom: 80px;
+}
+.hero-text h1{
+    color:white;
+    font-size: 80px;
+}
+.hero-text h1 .circle-dot{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+.hero-text p{
+    text-align: center;
+    font-size: 22px;
+}
+.hero-btn{
+    padding: 15px 40px;
+}
+
+
