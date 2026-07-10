@@ -1,0 +1,17 @@
+/* 1. reset styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Arimo", sans-serif;
+}
+/* 2. common styles  */
+
+.btn{
+    color:white;
+    background-color: #1b51d6;
+    padding: 5px 10px;
+    border:none;
+    border-radius: 5px;
+}
+/* 3. nav style  */
