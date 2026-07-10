@@ -10,8 +10,25 @@
 .btn{
     color:white;
     background-color: #1b51d6;
-    padding: 5px 10px;
+    padding: 10px 25px;
     border:none;
     border-radius: 5px;
 }
 /* 3. nav style  */
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:15px 30px;
+}
+nav ul{
+    display: flex;
+    gap:24px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#575757;
+}
