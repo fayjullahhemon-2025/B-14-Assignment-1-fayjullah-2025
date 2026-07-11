@@ -232,4 +232,9 @@ Maintain generous spacing and consistent padding across all breakpoints.
 Overall aesthetic should resemble a premium blend of Apple, Linear, Stripe Sessions, GitHub Universe, and Vercel—clean, sophisticated, highly visual, and developer-focused, with an emphasis on illustrations over stock photography.
 =============================================================
 
+After generating UI for the section,=>
+Chatgpt:
+1.Design the following section using html and css. Use section as container , use meaningful class name, use css grid for boxes(grid-template-columns and grid-template-rows, grid-row and grid-column). In grid boxes, just add dummy image from internet.
+2.3rd row must contain 2 box. 2nd box contain 1 image and the text shows in screenshot
+
 
