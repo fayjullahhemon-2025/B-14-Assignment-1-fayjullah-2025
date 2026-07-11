@@ -350,6 +350,7 @@ nav ul li a {
 .card-content h3{
     margin-bottom:10px;
     font-size:22px;
+    cursor:pointer;
 }
 
 .card-content p{
@@ -464,6 +465,9 @@ nav ul li a {
     width: 100%;
     height: 50px;
     
+}
+.community-list span{
+    cursor:pointer;
 }
 .list-icon img{
     width:20px;
