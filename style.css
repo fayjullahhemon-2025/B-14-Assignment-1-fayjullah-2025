@@ -306,9 +306,10 @@ nav ul li a {
     margin-bottom:50px;
 }
 
-.section-heading h2{
-    font-size:48px;
+.section-heading h1{
+    /* font-size:48px; */
     margin-bottom:15px;
+    color:#0D1B2A;
 }
 
 .section-heading p{
@@ -354,6 +355,7 @@ nav ul li a {
 .card-content p{
     font-size:15px;
     line-height:1.5;
+    color:#CFD6F1;
 }
 
 /* Grid Placement */
@@ -466,6 +468,70 @@ nav ul li a {
 .list-icon img{
     width:20px;
     height:20px;
+}
+/* footer section style  */
+footer{
+    background-color: #0D1B2A;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-logo-and-social-icon{
+    width: 80%;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.social-icon ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.social-icon ul li{
+    list-style: none;
+    cursor:pointer;
+}
+.social-icon ul li img{
+    width: 25px;
+    height: 25px;
+}
+footer .hr{
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.copy-rights-and-links{
+    width: 80%;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+    
+    
+}
+.copy-rights-and-links p{
+    color:rgba(255, 255, 255, 0.4);
+}
+.copy-rights-and-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.copy-rights-and-links ul li{
+    list-style: none;
+}
+.copy-rights-and-links ul li a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.4);
 }
 
 
