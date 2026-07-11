@@ -17,6 +17,30 @@ img{
     border:none;
     border-radius: 5px;
     cursor:pointer;
+    font-weight: 500;
+}
+.outline-btn{
+    color:#1b51d6;
+    background-color: transparent;
+    padding: 10px 25px;
+    border:1px solid #1b51d6;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: 500;
+}
+.outline-btn2{
+    color:#0D1B2A;
+    background-color: transparent;
+    padding: 10px 25px;
+    border:1px solid #0D1B2A;
+    border-radius: 5px;
+    cursor:pointer;
+    font-weight: 500;
+}
+.hr{
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255,0.1);
 }
 /* 3. nav style  */
 header{
@@ -136,4 +160,96 @@ nav ul li a{
     color:#575757;
 
 }
+/* price card style  */
+.price-card-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+.price-card-section .price-card-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-top: 20px;
+}
+.price-card-section .price-card-intro h1{
+    color:#0D1B2A;
+   
+}
+.price-card-section .price-card-intro p{
+    color:#575757;
 
+}
+.price-cards{
+    display: grid;
+    grid-template-columns:repeat(3,300px);
+    grid-template-rows: 1fr;
+    gap:20px;
+}
+.price-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 20px;
+    gap:20px;
+    /* border:1px solid red; */
+    border-radius: 10px;
+    color:#333333;
+}
+.price-card-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:2px;
+    padding-top: 15px;
+}
+.price-card-text p{
+    color:#888888;
+    font-size: 13px;
+    font-weight: 400;
+}
+.price-card-text h1{
+    color:#0D1B2A;
+    font-weight: bold;
+}
+.price-card button{
+    width: 100%;
+}
+
+.list-bullet{
+    width: 5px;
+    height: 5px;
+    background-color: #2563EB;
+    border-radius: 100%;
+    
+}
+.price-card ul li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:10px;
+}
+.price-card ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap:10px;
+}
+.pro-card{
+    background-color: #0e1b2b;
+}
+.pro-card h2{
+    color:white;
+}
+.pro-card ul li span{
+    color:rgba(255, 255, 255,0.8)
+}
